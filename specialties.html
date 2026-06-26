@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specialties | ORCHID</title>
+    <style>
+        :root { --primary-color: #6b4e71; --secondary-color: #f7f3f9; --text-color: #333; }
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; line-height: 1.6; }
+        nav { display: flex; justify-content: space-between; align-items: center; padding: 1rem 5%; background: white; box-shadow: 0 2px 5px rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 1000; }
+        .logo { font-size: 1.5rem; font-weight: bold; color: var(--primary-color); text-decoration: none; }
+        .nav-links a { margin-left: 20px; text-decoration: none; color: var(--text-color); font-weight: 500; }
+        header { background: var(--primary-color); color: white; padding: 60px 20px; text-align: center; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 40px 20px; }
+        .specialties-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; list-style: none; padding: 0; }
+        .specialty-item { background: var(--secondary-color); padding: 20px; border-radius: 8px; border-left: 5px solid var(--primary-color); }
+        footer { background: #333; color: white; text-align: center; padding: 40px 20px; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo">ORCHID WELLNESS</a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="specialties.html">Specialties</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Our Specialties</h1>
+        <p>Expert care tailored to your specific needs.</p>
+    </header>
+
+    <main class="container">
+        <ul class="specialties-list">
+            <li class="specialty-item"><h3>Anxiety Disorders</h3><p>Helping you find calm in the chaos of everyday life.</p></li>
+            <li class="specialty-item"><h3>Depression</h3><p>Supportive care to help you navigate through the darkness.</p></li>
+            <li class="specialty-item"><h3>Trauma & PTSD</h3><p>Compassionate trauma-informed advocacy and therapy.</p></li>
+            <li class="specialty-item"><h3>Life Transitions</h3><p>Guidance through career changes, grief, or new life stages.</p></li>
+        </ul>
+    </main>
+
+    <footer><p>&copy; 2026 Orchid Wellness and Advocacy.</p></footer>
+</body>
+</html>
