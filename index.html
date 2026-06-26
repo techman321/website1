@@ -119,6 +119,32 @@
             margin-bottom: 40px;
         }
 
+        /* Welcome Section */
+        .welcome-section {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            margin-bottom: 80px;
+        }
+
+        .welcome-image {
+            flex: 1;
+            max-width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+
+        .welcome-content {
+            flex: 1;
+        }
+
+        @media (max-width: 768px) {
+            .welcome-section {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+
         footer {
             background: #333;
             color: white;
@@ -149,6 +175,16 @@
     </header>
 
     <main class="container">
+        <!-- New Welcome Section -->
+        <section class="welcome-section">
+            <img src="orchid.jpeg" alt="Orchid Wellness Image" class="welcome-image">
+            <div class="welcome-content">
+                <h2>Welcome to Orchid Wellness</h2>
+                <p>We are dedicated to providing a supportive environment where healing and growth can flourish. Our approach is rooted in compassion, evidence-based practices, and a deep commitment to your personal well-being.</p>
+                <p>At Orchid Wellness and Advocacy, we believe that everyone deserves access to high-quality mental health resources. Whether you are seeking individual therapy or community advocacy, we are here to support you every step of the way.</p>
+            </div>
+        </section>
+
         <section>
             <h2 class="section-title">Specialized Care for You</h2>
             <div class="services-grid">
